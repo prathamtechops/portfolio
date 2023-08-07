@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Lumanosimo&family=Poppins&display=swap");
+
+body {
+    background-color: #040d1e;
+    --tw-text-opacity: 1;
+    color: rgb(209 213 219 / var(--tw-text-opacity));
+    font-family: "Poppins", sans-serif;
+}
+
+li {
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(112, 157, 225, 0.8),
+        rgba(112, 157, 225, 0.8)
+    );
+}
+
+.Home {
+    background-image: url(./assets/back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(
+        0,
+        0,
+        0,
+        0.5
+    ); /* Adjust the alpha value (0.5) to control opacity */
+}
